@@ -10,7 +10,7 @@ public class NumericManipulation {
         String itemDesc = "blue Shirt";
         total = price * quantity * (1 + tax);
 
-        String message = custName + " wants to purchase " + quantity + " of " + itemDesc + ".";
+        String message = custName + " wants to purchase  " + quantity + " of " + itemDesc + ".";
         System.out.println(message);
         System.out.printf("Total cost with tax is: %.2f.", total);
 
